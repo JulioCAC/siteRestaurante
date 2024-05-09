@@ -12,7 +12,7 @@ header {
     left: 0;
     right: 0;
     width: 100%;
-    z-index: 1000; /* Garante que o cabeçalho esteja acima de outros elementos */
+    z-index: 1000; 
 }
 
 nav ul {
@@ -60,6 +60,59 @@ nav ul li img {
 .container {
     padding-top: 60px; 
     padding-bottom: 115px;
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+section {
+    margin-bottom: 40px; 
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+ol {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-left: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+ol li strong {
+    font-weight: bold;
+}
+
+
+a {
+    color: #909ba6; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #000000; 
 }
 
 footer {

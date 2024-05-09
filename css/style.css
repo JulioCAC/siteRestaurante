@@ -7,6 +7,12 @@ body {
 header {
     background-color: #333;
     padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que o cabeçalho esteja acima de outros elementos */
 }
 
 nav ul {
@@ -52,7 +58,8 @@ nav ul li img {
 }
 
 .container {
-    padding-bottom: 120px;
+    padding-top: 60px; 
+    padding-bottom: 115px;
 }
 
 footer {

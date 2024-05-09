@@ -62,8 +62,8 @@ footer {
     left: 0;
     right: 0;
     width: 100%;
-    height: auto; /* Altura determinada pelo conteúdo */
-    line-height: 40px; /* Ajuste de acordo com a altura dos ícones */
+    height: auto; 
+    line-height: 40px; 
 }
 
 footer h2 {
@@ -79,8 +79,8 @@ footer ul {
 
 footer ul li {
     display: inline-block;
-    margin-right: 10px; /* Reduz o espaçamento entre os ícones */
-    vertical-align: middle; /* Alinha verticalmente os ícones */
+    margin-right: 10px; 
+    vertical-align: middle; 
 }
 
 footer ul li:last-child {
@@ -88,10 +88,10 @@ footer ul li:last-child {
 }
 
 footer ul li a {
-    display: block; /* Para cobrir toda a área do ícone com o link */
+    display: block; 
 }
 
 footer ul li img {
-    width: 30px; /* Reduz um pouco o tamanho dos ícones */
-    height: 30px; /* Reduz um pouco o tamanho dos ícones */
+    width: 30px; 
+    height: 30px; 
 }

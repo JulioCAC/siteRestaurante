@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
+    position: relative;
 }
 
 header {
@@ -8,15 +9,13 @@ header {
     padding: 10px 0;
 }
 
-
-
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
 }
 
 nav ul li {
@@ -46,29 +45,33 @@ nav ul li a:focus {
 }
 
 nav ul li img {
-    width: 50px; 
-    height: auto; 
-    margin-right: 5px; 
-    margin-left: 25px; 
-  
+    width: 50px;
+    height: auto;
+    margin-right: 5px;
+    margin-left: 25px;
 }
+
+.container {
+    padding-bottom: 120px;
+}
+
 footer {
-    text-align: center;
-    padding: 5px;
-    background-color: #333;
-    color: #fff;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     width: 100%;
-    height: auto; 
-    line-height: 40px; 
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    line-height: 40px;
 }
 
 footer h2 {
-    margin-bottom: 5px;
     margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 footer ul {
@@ -79,8 +82,8 @@ footer ul {
 
 footer ul li {
     display: inline-block;
-    margin-right: 10px; 
-    vertical-align: middle; 
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 footer ul li:last-child {
@@ -88,10 +91,10 @@ footer ul li:last-child {
 }
 
 footer ul li a {
-    display: block; 
+    display: block;
 }
 
 footer ul li img {
-    width: 30px; 
-    height: 30px; 
+    width: 30px;
+    height: 30px;
 }
